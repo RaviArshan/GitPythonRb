@@ -9,7 +9,7 @@ from Utilities.BaseClass import BaseClass
 
 class TestSeatseller(BaseClass):
     def test_seatseller(self):
-        print("test Ui")
+        print("Test Develop Branch Ui")
         self.driver.implicitly_wait(120)
         loginObj = LoginObjects(self.driver)
         loginObj.getEmail().send_keys("test_fee")

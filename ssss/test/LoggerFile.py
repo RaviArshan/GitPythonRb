@@ -14,4 +14,3 @@ def test_Logger():
     logger.info("info message")
     logger.warning("warning message")
     logger.error("error message")
-    logger.critical("critical")
